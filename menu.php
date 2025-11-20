@@ -1,4 +1,4 @@
-<ul id="menu">
+<div id="menu">
 <?php
 
 $links = array(
@@ -13,8 +13,8 @@ foreach($links as $action => $label) {
 	else if($_REQUEST['action'] == $action) {
 		$class = ' class="selected"';
 	}
- 	print "<li><a href=\"?action=$action\"$class>$label</a></li>\n";
+ 	print "<a href=\"?action=$action\"$class>$label</a>\n";
 }
 
 ?>
-</ul>
+</div>

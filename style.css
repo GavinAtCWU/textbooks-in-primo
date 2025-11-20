@@ -1,11 +1,8 @@
-/*
- * General / Layout
- */
 
 body {
 	margin: 0;
 	border: 0;
-	padding: 0;
+	padding: 10px;
 	font-family: Arial;
 }
 
@@ -13,4 +10,21 @@ h1.page-title {
 	font-weight: normal;
 }
 
+#menu {
+}
 
+#menu a {
+	display: inline-block;
+	margin: 0 5px 0 0;
+	border: solid 1px #666666;
+	padding: 4px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	color: #666666;
+}
+
+#menu a.selected {
+	border: solid 3px #000000;
+	color: #000000;
+}

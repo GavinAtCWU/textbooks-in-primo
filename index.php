@@ -14,6 +14,14 @@
 
 <?php include('menu.php'); ?>
 
+<div id="content">
+<?php
+
+
+
+?>
+</div>
+
 </body>
 
 </html>
