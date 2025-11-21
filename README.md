@@ -4,7 +4,11 @@ Work in progress. Stay tuned...
 
 ## Requirements
 
-1. A .csv export of textbooks from your bookstore that at minimum has textbook title and ISBN fields but ideally would have course code, course section, professor name and professor email fields as well.
+1. A .csv export of textbooks from your bookstore that at minimum has textbook <b>title</b> and <b>ISBN</b> fields but ideally would have <b>course code</b>, <b>course section</b>, <b>professor name</b> and <b>professor email</b> fields as well.
+
+2. A web server configured to run PHP scripts.
+
+3. A MySQL server to store the data.
 
 ## Setup
 
