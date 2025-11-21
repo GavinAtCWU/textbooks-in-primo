@@ -13,7 +13,7 @@ foreach($links as $action => $label) {
 	else if($_REQUEST['action'] == $action) {
 		$class = ' class="selected"';
 	}
- 	print "<a href=\"?action=$action\"$class>$label</a>\n";
+ 	print "<a href=\"index.php?action=$action\"$class>$label</a>\n";
 }
 
 ?>

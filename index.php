@@ -1,3 +1,8 @@
+<?php
+
+include('config.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -10,9 +15,11 @@
 
 <body>
 
-<h1 class="page-title"><b>T</b>extbooks <b>I</b>n <b>P</b>rimo</h1>
+<h1><a href="index.php"><b>T</b>extbooks <b>I</b>n <b>P</b>rimo</a></h1>
 
-<?php include('menu.php'); ?>
+<?php
+include('menu.php');
+?>
 
 <div id="content">
 <?php
