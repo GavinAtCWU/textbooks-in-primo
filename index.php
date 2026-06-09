@@ -11,6 +11,9 @@ include('config.php');
 <style>
 <?php include('style.css'); ?>
 </style>
+<script>
+<?php include('script.js'); ?>
+</script>
 </head>
 
 <body>
