@@ -21,7 +21,7 @@ include('includes/config.php');
 <h1><a href="index.php"><b>T</b>extbooks <b>I</b>n <b>P</b>rimo</a></h1>
 
 <?php
-include('menu.php');
+include('includes/menu.php');
 ?>
 
 <div id="content">
