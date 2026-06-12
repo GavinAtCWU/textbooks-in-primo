@@ -10,11 +10,13 @@ Work in progress. Stay tuned...
 	- Course Name or Code
 	- Course Section
 	- Course Professor Name
-	- Course Professor Email
 
 2. A web server configured to run PHP scripts.
 
 3. A MySQL server to store the data.
+
+4. An API key from Ex Libris Developer Network for:
+	- Primo Search - Production Read-only
 
 ## Setup
 
